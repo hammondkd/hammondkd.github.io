@@ -1,4 +1,5 @@
 #DirectoryIndex index.shtml
 #AddHandler server-parsed .shtml
+Options +Includes
 AddType text/html .shtml
 AddOutputFilter INCLUDES .shtml

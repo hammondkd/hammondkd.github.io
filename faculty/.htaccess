@@ -1,4 +1,4 @@
 DirectoryIndex index.shtml
 Options +Includes
-#AddType text/html .shtml
-#AddOutputFilter INCLUDES .shtml
+AddType text/html .shtml
+AddOutputFilter INCLUDES .shtml

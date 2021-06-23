@@ -13,47 +13,7 @@
 </head>
 
 <body>
-<!-- contents of header.html -->
-<div class="topbar">
-  <span ID="left_logo"><a href="https://www.missouri.edu/">
-    <img src="images/MU-logo-RGB-stroke.png" class="MUlogo" alt="MU"></a></span>
-  <span ID="professor">Karl D. Hammond, Ph.D.</span>
-  <span ID="department">Professor of Chemical Engineering</span>
-</div>
-<div ID="pages">
-    &#8288; <!-- This is a "word-joiner" that inserts space to the left -->
-  <div class="pagelink" id="Home">
-    <a href="/hammondkd/">Home</a>
-  </div>
-  <div class="pagelink" id="People">
-    <a href="/hammondkd/people.shtml">People</a>
-  </div>
-  <div class="pagelink" id="Publications">
-    <a href="/hammondkd/publications.shtml">Publications</a>
-  </div>
-  <div class="pagelink" id="Research">
-    <a href="/hammondkd/research.shtml">Research</a>
-  </div>
-  <!--div class="pagelink" id="Teaching">
-    <a href="/hammondkd/teaching.shtml">Teaching</a>
-  </div-->
-  <!--div class="pagelink" id="Service">
-    <a href="/hammondkd/service.shtml">Service</a>
-  </div-->
-  <div class="pagelink" id="Tools">
-    <a href="/hammondkd/tools.shtml">Tools</a>
-  </div>
-  <div class="pagelink" id="LAMMPS">
-    <a href="/hammondkd/LAMMPS.shtml">LAMMPS</a>
-  </div>
-  <div class="pagelink" id="MUthesis">
-    <a href="/hammondkd/MUthesis.shtml">
-        <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>
-        Theses
-    </a>
-  </div>
-</div>
-<!-- end of file header.html -->
+<!--#include virtual="header.html" -->
 
 <div id="main">
 <h1>Welcome</h1>

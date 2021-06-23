@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Karl's LAMMPS Tools | Research Group of Karl Hammond
+    | University of Missouri</title>
+<link rel="canonical" href="http://faculty.missouri.edu/hammondkd">
+<link rel="stylesheet" type="text/css" href="KDH.css">
+<link rel="icon" href="MU-logo-RGB-stroke.ico">
+<meta name="viewport" content="width=device-width; initial-scale=1;" />
+<style>
+    div#LAMMPS {background-color: var(--activetab);}
+</style>
+</head>
+
+<body>
+<!--#include virtual="header.html" -->
+
+<div id="main">
+<h1>LAMMPS Tools</h1>
+This page includes several tools that I have written for use with
+<a href="https://lammps.sandia.gov/">LAMMPS</a> that I want to contribute
+back to the general community. These tools come with no warranty or promises
+of any kind&mdash;my only hope is that people will find them useful.
+
+<dl>
+  <dt>LAMMPS.F90</dt>
+    <dd>This file (and others that accompany it) is now included in the LAMMPS
+      distribution under <kbd>examples/COUPLE/fortran2</kbd>
+    </dd>
+    <dd>The goal is an improved Fortran interface to LAMMPS. Specifically,
+      it allows you to couple Fortran programs to LAMMPS using an interface
+      very similar to the C library interface to LAMMPS. An example file
+      (<kbd>simple.f90</kbd>) is included, but the intent is that the Fortran
+      interface will be essentially the same as the C interface, using
+      Fortran&rsquo;s <kbd>ISO_C_binding</kbd> intrinsic module.
+    </dd>
+    <dd>Instructions are given in the <kbd>README</kbd> file that accompanies
+      the interface. The biggest difference from the C interface is that any
+      pointers that are returned by the C interface are instead accepted as
+      the first argument of a subroutine by the Fortran interface. This is
+      necessary because the type of the return value cannot be determined at
+      compile time.
+    </dd>
+  <dt><a href="LAMMPS/plot-thermo-data">plot-thermo-data</a></dt>
+    <dd>This shell script processes LAMMPS output (or log files) and plots it
+      in Grace (xmgrace)</dd>
+    <dd>Usage:<br>
+      <ul>
+        <li>To get help:<br>
+          <code>plot-thermo-data -h</code>
+        <li>Plot ALL columns throughout the entire run:<br>
+          <code>plot-thermo-data [outputfile]</code>
+        <li>Plot only the temperature against the time step:<br>
+          <code>plot-thermo-data -f Temp [outputfile]</code>
+        <li>Plot only the pressure from the 3rd block (corresponding to
+          <code>run</code> or <code>minimize</code> commands) against the time
+          step:<br>
+          <code>plot-thermo-data -f Press -s 3 [outputfile]</code>
+      </ul>
+    </dd>
+  <dt><a href="LAMMPS/lammps.vim">lammps.vim</a></dt>
+    <dd>This is an enhanced syntax highlighting file that attempts to give you
+      some warning when you make a mistake in your LAMMPS input files.
+      It is <i>very</i> difficult to keep this up to date, as it requires me
+      to edit it every time anyone adds an option to any of the commands.
+    </dd>
+  <dt>The ComputeFrenkel and DumpFrenkel classes.</dt>
+    <dd>These have been published in
+      <a href="https://doi.org/10.1016/j.cpc.2019.106862"><i>Computer Physics
+        Communications</i></a>;
+      the source code is available as Supporting Information.
+    </dd>
+    <dd>These classes allow you to identify defects (Frenkel pairs) in cascade
+      damage simulations. The classes allow you both to compute the number,
+      size, and location of these defects; and to view the damage created over
+      time without having to store the position of every atom in the system
+      and post-process the results.
+    </dd>
+  <dt>Region style <code>ellipsoid</code></dt>
+    <dd>A region style that creates ellipsoidal regions. This was originally
+      written for a <a href="https://doi.org/10.1063/1.4860315">paper</a>
+      on oblate spheroidal bubbles&mdash;which, oddly enough, I was not a
+      co-author of&mdash;but is not part of the LAMMPS distribution at present.
+    </dd>
+    <dd>Syntax:<br>
+      <code>region [ID] ellipsoid x y z a b c</code><br>
+      where <i>x</i>, <i>y</i>, and <i>z</i> are the coordinates of the center
+      of the ellipse and <i>a</i>, <i>b</i>, and <i>c</i> are the axes of the
+      ellipsoid.
+    </dd>
+    <dd>To use this, place the following files in the <kbd>src</kbd> directory
+      before building LAMMPS:
+      <ul>
+        <li><a href="LAMMPS/region_ellipsoid.h">region_ellipsoid.h</a></li>
+        <li><a href="LAMMPS/region_ellipsoid.cpp">region_ellipsoid.cpp</a></li>
+      </ul>
+    </dd>
+</dl>
+
+</div>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Research | Karl Hammond | University of Missouri</title>
+<link rel="canonical" href="http://faculty.missouri.edu/hammondkd">
+<link rel="stylesheet" type="text/css" href="KDH.css">
+<link rel="icon" href="MU-logo-RGB-stroke.ico">
+<meta name="viewport" content="width=device-width; initial-scale=1;">
+<style>
+    div#Research {background-color: var(--activetab);}
+</style>
+</head>
+
+<body>
+<!--#include virtual="header.html" -->
+
+<div id="main">
+<h1>Research</h1>
+<p>My group conducts research in materials for nuclear energy, 
+catalysis, adsorption, and other energy-related applications. Particular focus
+is given to simulation of materials for plasma-facing environments, including
+nuclear fusion reactors; transport and radiation damage in materials, including
+simulations of nuclear fission reactor fuels; catalytic and adsorption
+processes in zeolites and other porous materials; characterization of
+materials; and modeling and simulation of porous materials.</p>
+
+<h2>Plasma-Facing Materials</h2>
+<div class="float_right">
+<img src="images/Sun-courtesy-NASA-SDO.jpg"
+     width="150" height="150" alt="Sun-courtesy-NASA-SDO">
+</div>
+<p>Nuclear fusion is the ultimate source of nearly all energy we utilize today.
+Unfortunately, the best reactors to produce energy from nuclear fusion are,
+well, a little bulky. The nearest one to us, for example, has a mass of almost
+2&nbsp;&times;&nbsp;10<sup>30</sup>&nbsp;kg and produces 400&nbsp;YW
+(4&nbsp;&times;&nbsp;10<sup>26</sup>&nbsp;W)
+of power (you might know it as the Sun).
+Clearly, this gravitationally confined environment is not feasible on Earth, so
+we have had to get more clever.</p>
+
+<div class="float_left">
+<img src="images/nif-1109-17880.jpg"
+     alt="National Ignition Facility" width="150" height="150">
+</div>
+<p>Instead, humans have envisioned inertial confinement reactors, in which
+high-power lasers focus onto a very small sample, instantaneously compressing
+it and starting fusion reactions. Inertial confinement is the basis of the
+National Ignition Facility in California (pictured at left). Unfortunately,
+this type of reactor (like all others) has many hurdles to overcome as
+well.</p>
+
+<div class="float_right">
+<img src="images/jet_plasma_web.jpg"
+     alt="jet_plasma_web" width="150" height="150">
+</div>
+<p>The third option devised to date is magnetically confined fusion, which is
+the basis for <a href="http://iter.org/">ITER</a>, a test reactor under
+construction near Cadarache, France. ITER is the culmination of around
+50&nbsp;years of plasma physics research, and is expected to be the first
+terrestrial fusion reactor to produce more power than is required to heat the
+plasma for longer than a few seconds. However, the conditions of the plasma in
+ITER and future magnetic confinement devices are becoming increasingly hostile
+to the materials from which the device is constructed. These materials
+challenges may come to dominate research in fusion during the coming years, as
+we strive to achieve the dream of a terrestrial nuclear fusion reactor.</p>
+
+<p>Recent work in plasma-facing materials has revealed that helium, the 
+product of nuclear fusion, creates many unexpected and/or detrimental 
+phenomena when implanted in metals due to helium plasma exposure. Helium
+bubbles, in particular, are possible sources of increased hydrogen 
+(specifically tritium) retention, as well as plasma contamination by the
+divertor material (tungsten). Our work comes in at the microscopic 
+level: we examine the transport processes involved in hydrogen, helium, 
+lithium, and beryllium transport inside the divertor and first wall of 
+the reactor, as well as smaller plasma devices intended as model systems for
+ITER and other future reactors. Specifically, we wish to determine the
+interplay between the various reactor materials as they sputter and redeposit
+on other surfaces, changing the surface and diffusion properties within the
+metal.</p>
+
+<hr>
+
+<h2>Nuclear Materials</h2>
+<p>While nuclear fusion holds great promise, it is, at present, 
+impractical as a source of energy for our everyday use.  Nuclear 
+fission, on the other hand, provides approximately 20% of electrical 
+energy in the United States and represents approximately 8% of our total
+ energy use annually.  Nuclear reactors have the distinct advantage 
+that, once built, they are extremely cheap to operate, and they have 
+excellent safety records: in the USA, accidents at nuclear power 
+facilities have claimed just three miltary and zero civilian
+lives&mdash;ever. In fact, fission power causes fewer deaths per unit of
+electricity than all other power sources worldwide, and most of those deaths
+are those of miners and deaths in isolated incidents such as Chernobyl.</p>
+
+<p>Nuclear reactors, much like cell phone data plans, are generally 
+divided into &ldquo;generations,&rdquo; such as &ldquo;Generation III
+reactors.&rdquo; A big part of the progress in nuclear energy is our improved
+understanding of nuclear reactor physics, particularly how the reactor behaves
+during disruptions from steady-state in terms of power output and radiation
+production.  Nuclear reactor materials, which include fuel, cladding, and
+structural materials, are susceptible to damage both from neutrons and the
+resulting hydrogen they decay into, as well as fission gas production (xenon,
+krypton) from the fission process and radioactive decay of fission products to
+produce high-energy electrons (beta particles) and helium nuclei (alpha
+particles).</p>
+
+<p>My group&lsquo;s work in this area, previously supported by a Faculty
+Development Grant from the Nuclear Regulatory Commission, uses the tools of
+computational materials science and applied physics to model heat and mass
+transfer processes in nuclear materials, particularly radiation effects and
+thermal transient phenomena. We also study the thermodynamics and materials
+physics of alternative nuclear fuels such as metallic uranium&ndash;molybdenum
+alloys.  Our work is in tandem with the <a
+href="http://murr.missouri.edu/">Missouri University Research Reactor</a>
+(MURR), the largest academic research reactor in the country.</p>
+
+<hr>
+
+<h2>Zeolites and Similar Porous and Catalytic Materials</h2>
+<div class="float_right">
+<img src="images/AFI_001.png" alt="AFI along [001]"
+     width="225" height="205">
+</div>
+<p>Zeolites are crystalline aluminosilicates that revolutionized the
+petrochemicals industry when they were introduced into the cracking and
+refining processes decades ago. The key to this revolution was the small pores
+zeolites possess: the constrained environment of a zeolite pore either prevents
+large molecules (e.g., asphalt-range hydrocarbons) from forming, or prevents
+their diffusion out of the zeolite before they react again.</p>
+
+<p>Zeolite-catalyzed processes typically involve acid sites, another prominent
+feature of zeolite chemistry: the aluminum atoms, which have trivalent
+chemistry, create a net negative charge when in the tetravalent sites normally
+occupied by silicon atoms. This negative formal charge creates a Lewis base
+site near each aluminum atom. If the compensating cation is hydrogen, the
+zeolite has net Br&oslash;nsted acidity.  Most zeolites, especially
+low-aluminum zeolites, are strong acids, making them fairly potent acid
+catalysts capable of doing size-selective chemistry.</p>
+
+<p>My group&rsquo;s primary research in zeolites is in their spectroscopic 
+properties.  Specifically, we want to be able to predict&ndash;quickly and 
+accurately&ndash;the infrared spectrum of a zeolite using nothing but
+computational tools.  Sounds simple, right?  Except that the vibrations are
+tightly coupled, the crystals are <i>huge</i> (as simulations go, at least),
+and the models we have&hellip;well&hellip;stink.  As such, we proceed along 
+all of these fronts, doing DFT-based calculations of periodic structures as a
+baseline, comparing those to simulations of finite, molecule-like portions of
+zeolite crystals, and comparing both sets of calculations to faster, though
+typically less-accurate, models of zeolite vibration.</p>
+
+<p>Another avenue of research in my group is zeolites that have been modified
+to act as Br&oslash;nsted <i>bases</i>.
+Our goal is to find the right combination of crystal structure and 
+Si/Al ratio, combined with treatment procedure and catalytic reaction 
+conditions, which will make nitrided zeolite catalysis a reality. This 
+research is directed toward oxygenated molecules, which are often 
+upgraded by way of base-catalyzed reactions.</p>
+
+<div class="float_left">
+<img src="images/FAU-spectra-structures.png" width="300" height="156"
+    alt="Nitrided FAU spectroscopy">
+</div>
+<p>A typical starting point for these materials is treatment of a zeolite 
+with high-temperature ammonia or other amine-generating agents. This
+process substitutes some of the oxygen for NH groups, which act as 
+Br&oslash;nsted (and Lewis) bases. Our challenge as we move forward is to find
+a viable combination of catalyst stability, reactant/product species, and
+reaction pathway characteristics that make alkaline zeolite catalysis a
+reality.</p>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Research Group of Karl Hammond | University of Missouri</title>
+<link rel="canonical" href="http://faculty.missouri.edu/hammondkd">
+<link rel="stylesheet" type="text/css" href="KDH.css">
+<link rel="icon" href="MU-logo-RGB-stroke.ico">
+<meta name="viewport" content="width=device-width; initial-scale=1;">
+<style>
+    div#Home {background-color: var(--activetab);}
+</style>
+</head>
+
+<body>
+<!--#include virtual="header.html" -->
+
+<div id="main">
+<h1>Welcome</h1>
+<div class="float_right"><img src="images/SFH.jpg" alt="SFH"></div>
+<p>
+The Hammond research group uses a combination of computational modeling and
+experimental characterization to study materials that have energy applications.
+This includes adsorption, transport, separations, and catalysis using
+zeolite-like materials for both &ldquo;traditional&rdquo; and
+&ldquo;renewable&rdquo; fuels (such as biomass-derived molecules) as well as
+radiation damage to materials in nuclear reactors (some in fission reactors,
+but primarily in experimental fusion reactors and plasma devices).
+</p>
+
+<div class="float_left"><img src="images/W_surface.png" alt="He on W"></div>
+<p>
+Our primary aim is to use computational techniques in tandem with experiments
+to achieve a better understanding of the underlying physical and chemical
+processes involved. This might mean direct investigation of a reaction or
+diffusion mechanism, or it may involve a series of calculations that, when
+viewed as a whole, paint a picture of the process from the atomic scale all the
+way up to entire device.
+</p>
+
+<p>
+One inspiring aspect of computational materials science and catalysis
+research is an atomic-scale understanding of physical and chemical processes
+that is impossible using purely experimental means.  Simulations also provide
+feedback as to what the next set of experiments should be; similarly, that set
+of experiments often provides a direction for the next set of simulations, and
+so on.
+</p>
+
+<div class="clearpage"></div>
+
+<hr>
+
+<h1>Group News</h1>
+<h2>Awards and Honors</h2>
+<ul>
+  <li><b>April 15, 2021.</b> Rafi Iasir successfully defended his dissertation
+    at 2:00&nbsp;pm CDT.
+  <li><b>March 26, 2021.</b> Brandon Lee was awarded the Goldwater Scholarship
+    from the Barry Goldwater Scholarship and Excellence in Education
+    Foundation. Congratulations, Brandon!
+  <li><b>November 10, 2020.</b> Brandon Lee received one of five Outstanding
+    Poster awards at the American Physical Society Division of Plasma Physics
+    Annual Meeting.
+  <li><b>September 24, 2020.</b> Amir Mehdi Mofrad successfully defended his
+    dissertation at 12:00&nbsp;pm CDT.
+  <li><b>April 23, 2020.</b> Andrea Saltos successfully defended her
+    dissertation at 1:00&nbsp;pm CDT.
+  </li>
+  <li><b>March 13, 2020.</b> Andrea Saltos and Rafi Iasir shared the
+    Outstanding Ph.D. Student in Nuclear Engineering award from the MU College
+    of Engineering.
+  </li>
+  <li><b>March 13, 2020.</b> Amir Mofrad shared the Outstanding Ph.D.
+    Student in Chemical Engineering award from the MU College of Engineering.
+  </li>
+  <li><b>October 25, 2019.</b> Amir Mofrad was chosen for the
+    &ldquo;People&rsquo;s Choice Award&rdquo; at the MU 3MT competition.
+  </li>
+  <li><b>August 1, 2019.</b> Prof. Hammond was one of 46 professors nationwide
+    to be awarded funding in 2019 through the
+    <a href="https://www.energy.gov/articles/department-energy-selects-73-scientists-receive-early-career-research-program-funding">Department of Energy
+    Early Career Research Program</a> (commonly called the DOE Early Career
+    Award)
+  </li>
+  <li><b>May 2019.</b> Prof. Hammond was recognized as an Honors College
+    Faculty Mentor for Maura Higgins.
+  </li>
+  <li><b>April 5, 2019.</b> Amir Mofrad was awarded second place at the
+    Graduate Professional Council Research and Creative Activities Forum's
+    poster session.
+  </li>
+  <li><b>August 17, 2018.</b> Rafi Iasir was awarded &ldquo;Best Poster&rdquo;
+    at the CASL Institute&rsquo;s poster session.
+  </li>
+  <li><b>March 20, 2018.</b> Zhuocen Yang was given the Outstanding Master's
+    Student in Nuclear Engineering award by the MU College of Engineering.
+  </li>
+  <li><b>December 2017.</b> Prof. Hammond was recognized as an Honors College
+    Faculty Mentor for Alexandra Sopata.
+  </li>
+  <li><b>July 18, 2017.</b> Andrea Saltos awarded the J.&nbsp;D. Williams
+    Student Poster Award by the Institute for Nuclear Materials Management.
+  </li>
+</ul>
+
+<h2>New Members and Recent Graduates</h2>
+<p><b>May 2021</b> Megan Herrington joined the group as part of the REU
+    program. Megan will study neuton-induced effects in plasma-facing
+    materials.
+<p><b>April 2021</b> Trent Adelmann and Camila Leiva joined the group.
+    Trent will study nitridation processes in zeolites, and Camila will
+    study hydrogen effects on metal properties near grain boundaries.</p>
+<p><b>November 2020</b> Amir Mofrad left the group for a post-doctoral position
+    at the University of South Carolina.</p>
+<p><b>October 2020</b> Seth Paradise joined the group and will study helium
+    interactions with interfaces.</p>
+<p><b>May 2020</b> Andrea Saltos left the group for a position with
+    <a href="https://cfs.energy/">Commonwealth Fusion Systems</a></p>
+<!--p><b>July 2019</b> Kenny Distefano left the group and will return to
+    Missouri S&amp;T University.</p-->
+
+</div>
+</body>
+</html>

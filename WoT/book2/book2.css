@@ -1,0 +1,35 @@
+body {
+ background: #ffffff
+ url("hornback.jpg");
+ color: #000000 }
+
+a.name    {color: green}
+a:link    {color: #cc0000}
+a:active  {color: #00ff00}
+a:visited {color: #881111}
+
+th        {color: #000000}
+td        {color: #000000}
+td.title  {color: #881111}
+td.prev {
+  text-align:  left;
+  width:  50%
+}
+td.next {
+  text-align:  right;
+  width:  50%
+}
+
+tr.top {vertical-align:  top;}
+tr.bottom {vertical-align:  bottom;}
+
+h2 {text-align: left}
+h2.title {text-align: center}
+
+h3 {text-align:  left}
+h3.heading {text-align: center}
+
+img {border-width:  0}
+img.cover {border-width:  1px;}
+
+ul#first {list-style-type:  none}

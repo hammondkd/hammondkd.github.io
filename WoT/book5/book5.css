@@ -1,0 +1,35 @@
+body {
+ background: #000000
+ url("lightning2.jpg");
+ color: #ffffff }
+
+a.name    {color: #ffff00}
+a:link    {color: #ffcc00}
+a:active  {color: #ff0000}
+a:visited {color: #dd9900}
+
+th        {color: #ffffff}
+td        {color: #ffffff}
+td.title  {color: #dd9900}
+td.prev {
+  text-align:  left;
+  width:  50%
+}
+td.next {
+  text-align:  right;
+  width:  50%
+}
+
+tr.top {vertical-align:  top;}
+tr.bottom {vertical-align:  bottom;}
+
+h2 {text-align: left}
+h2.title {text-align: center}
+
+h3 {text-align:  left}
+h3.heading {text-align: center}
+
+img {border-width:  0}
+img.cover {border-width:  1px;}
+
+ul#first {list-style-type:  none}

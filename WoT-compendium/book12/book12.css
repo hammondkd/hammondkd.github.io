@@ -1,0 +1,37 @@
+body {
+ background: #222222
+ url("storm-cloud-bkg.jpg")
+ fixed;
+ color: #ffffff }
+
+a.name    {color: #bac0f0}
+a:link    {color: #fad853}
+a:active  {color: #ff0000}
+a:visited {color: #ba7833}
+
+th        {color: #ffffff}
+td        {color: #ffffff}
+td.title  {color: #ba7833}
+
+td.prev {
+  text-align:  left;
+  width:  50%
+}
+td.next {
+  text-align:  right;
+  width:  50%
+}
+
+tr.top {vertical-align:  top;}
+tr.bottom {vertical-align:  bottom;}
+
+h2 {text-align: left}
+h2.title {text-align: center}
+
+h3 {text-align:  left}
+h3.heading {text-align: center}
+
+img {border-width:  0}
+img.cover {border-width:  1px;}
+
+ul#first {list-style-type:  none}

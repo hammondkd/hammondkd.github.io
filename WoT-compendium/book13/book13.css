@@ -1,0 +1,38 @@
+body {
+ background: black
+ url("large-wtc-night_backg.jpg")
+ fixed;
+ color: #e0eeef;
+}
+
+a.name    {color: #bac0f0}
+a:link    {color: #bfd7e1}
+a:active  {color: #dfeded}
+a:visited {color: #c4843c}
+
+th        {color: #ffffff}
+td        {color: #ffffff}
+td.title  {color: #c4843c}
+
+td.prev {
+  text-align:  left;
+  width:  50%
+}
+td.next {
+  text-align:  right;
+  width:  50%
+}
+
+tr.top {vertical-align:  top;}
+tr.bottom {vertical-align:  bottom;}
+
+h2 {text-align: left}
+h2.title {text-align: center}
+
+h3 {text-align:  left}
+h3.heading {text-align: center}
+
+img {border-width:  0}
+img.cover {border-width:  1px;}
+
+ul#first {list-style-type:  none}

@@ -1,0 +1,37 @@
+body {
+/* background: #a68644 */
+ background: #88773f
+ url("dreamy.jpg");
+ color: #ffffff }
+
+a.name    {color: #ffa030}
+a:link    {color: #ffff9d}
+a:active  {color: #ffcc6a} /*4a78b7*/
+a:visited {color: #b4b400}
+
+th        {color: #ffffff}
+td        {color: #ffffff}
+td.title  {color: #b4b400}
+
+td.prev {
+  text-align:  left;
+  width:  50%
+}
+td.next {
+  text-align:  right;
+  width:  50%
+}
+
+tr.top {vertical-align:  top;}
+tr.bottom {vertical-align:  bottom;}
+
+h2 {text-align: left}
+h2.title {text-align: center}
+
+h3 {text-align:  left}
+h3.heading {text-align: center}
+
+img {border-width:  0}
+img.cover {border-width:  1px;}
+
+ul#first {list-style-type:  none}

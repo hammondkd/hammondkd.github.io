@@ -1,0 +1,14 @@
+body {
+ background: #ffffff
+ color: #000000 }
+
+a.name    {color: #0000dd}
+td        {color: #000000}
+td.title  {color: #000090}
+a:link    {color: #0000bb}
+a:active  {color: #00ff00}
+a:visited {color: #000090}
+
+h2 {text-align: left}
+h2.title {text-align: center}
+h3.heading {text-align: center}

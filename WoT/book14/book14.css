@@ -1,0 +1,37 @@
+body {
+ background: black
+ url("candle-on-leaves-background.jpg");
+ color: #fcffff; */
+}
+
+a.name    {color: #e85328}
+a:link    {color: #f3cc6d}
+a:active  {color: #fbf7b7}
+a:visited {color: #d18b4d}
+
+th        {color: #fcffff}
+td        {color: #fcffff}
+td.title  {color: #d18b4d}
+
+td.prev {
+  text-align:  left;
+  width:  50%
+}
+td.next {
+  text-align:  right;
+  width:  50%
+}
+
+tr.top {vertical-align:  top;}
+tr.bottom {vertical-align:  bottom;}
+
+h2 {text-align: left}
+h2.title {text-align: center}
+
+h3 {text-align:  left}
+h3.heading {text-align: center}
+
+img {border-width:  0}
+img.cover {border-width:  1px;}
+
+ul#first {list-style-type:  none}

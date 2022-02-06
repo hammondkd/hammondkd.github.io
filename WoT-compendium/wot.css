@@ -25,3 +25,19 @@ table.header {
   border-spacing: 3px;
   border: 0px;
 }
+
+h3.chapter { padding-left: 40px; }
+img.icon { padding-left: 40px; }
+ol.start { counter-reset: character; }
+ol > li {
+    text-indent: -3em;
+    list-style-type: none;
+    counter-increment: character;
+}
+ol > li:before {
+    display: inline-block;
+    width: 2.75em;
+    padding-right: 0.25em;
+    text-align: right;
+    content: counter(character) ". ";
+}

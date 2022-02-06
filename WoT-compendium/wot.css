@@ -44,3 +44,7 @@ ol > li:before {
     text-align: right;
     content: counter(character) ". ";
 }
+th.big {
+    font-size: 1.17em;
+    font-weight: bold;
+}

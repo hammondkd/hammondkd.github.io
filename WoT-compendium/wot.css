@@ -19,3 +19,9 @@ body {
 li {
   padding-bottom: 3pt;
 }
+
+table.header {
+  padding: 2px;
+  border-spacing: 3px;
+  border: 0px;
+}

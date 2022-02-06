@@ -1,9 +1,17 @@
-body {
- background: #eae4d7
- url("dragon.jpg");
- color: #000000 }
+div#main {
+  background-image: linear-gradient(to right, #fffaf400 0%, #fffaf4c0 10%,
+      #fffaf4c0 90%, #fffaf400 100%);
+}
 
-a.name    {color: #ff0000}
+body {
+  background-color: #fffaf4;
+  /*background: #eae4d7 url("dragon.jpg");*/
+  /*background: #fffaf4 url("dragon.jpg");*/
+  background-image: url("dragon1.jpg");
+  color: #000000;
+}
+
+a.name    {color: #c00000} /* originally #ff0000 */
 a:link    {color: #00008b}
 a:active  {color: #00ff00}
 a:visited {color: #8800a0}

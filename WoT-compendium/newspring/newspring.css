@@ -1,17 +1,28 @@
+div#main {
+  background-image: linear-gradient(to right, #ffffff00 0%, #fffffff0 5%,
+      #fffffff0 95%, #ffffff00 100%);
+}
+
 body {
- background: #797f79
- url("johnny.gif");
- color: #000080 }
+/* background-color: #797f79; */
+  background-color: #878787;
+  background-image: url("johnny2.jpg");
+/*  color: #000080 */
+/*  color: #6b81a8; */
+  color: black;
+}
 
 /* a.name    {color: #ffff7f} */
 /* a.name    {color: #eb8000} */
-a.name    {color: #cb6000}
+/*a.name    {color: #cb6000}*/
+/*a.name    {color: #813d70}*/
+a.name    {color: #603143}
 a:link    {color: #3300cc}
 a:active  {color: #0000ff}
 a:visited {color: #0900a5}
 
-th        {color: #000080}
-td        {color: #000080}
+/*th        {color: #000080}
+td        {color: #000080} */
 td.title  {color: #0900a5}
 
 td.prev   {

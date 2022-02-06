@@ -1,0 +1,21 @@
+div#main {
+  padding-left: 1.75pc;
+  padding-right: 1.75pc;
+  max-width: 900px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  padding-bottom: 3pt;
+}

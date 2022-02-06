@@ -1,7 +1,14 @@
+div#main {
+  background-image: linear-gradient(to right, #dddddd00 0%,
+    #dddddde0 10%, #dddddde0 90%, #dddddd00 100%);
+}
+
 body {
- background: #dddddd
- url("eye.gif");
- color: #000000 }
+  background-color: #dddddd;
+  background-image: url("eye.gif");
+  color: #000000;
+  background-size: calc(max(320px,25%))
+}
 
 /*a.name    {color: #cd8032}*/
 a.name    {color: #ad6000}

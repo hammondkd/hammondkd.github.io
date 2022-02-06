@@ -1,7 +1,12 @@
+div#main {
+    background-image: linear-gradient(to right, #ffffff00 0%, #ffffffc0 10%,
+        #ffffffc0 90%, #ffffffd0 100%);
+}
 body {
- background: #ffffff
- url("hornback.jpg");
- color: #000000 }
+  background-color: #ffffff;
+  background-image: url("hornback.jpg");
+  color: #000000;
+}
 
 a.name    {color: green}
 a:link    {color: #cc0000}

@@ -48,3 +48,27 @@ th.big {
     font-size: 1.17em;
     font-weight: bold;
 }
+a { text-decoration: none; }
+a:link:hover { text-decoration: underline; }
+td.prev {
+  text-align: left;
+  width: 50%;
+}
+td.next {
+  text-align: right;
+  width: 50%;
+}
+
+tr.top { vertical-align: top }
+tr.bottom { vertical-align: bottom }
+
+h2 {text-align: left}
+h2.title {text-align: center}
+
+h3 {text-align:  left}
+h3.heading {text-align: center}
+
+img {border-width:  0}
+img.cover {border-width:  1px;}
+
+ul#first {list-style-type:  none}

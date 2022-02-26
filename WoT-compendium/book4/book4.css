@@ -1,14 +1,7 @@
 div#main {
-  /*background-image: linear-gradient(to right, #34343400 0%, #343434d0 10%,
-      #343434d0 90%, #34343400 100%);*/
   background-image: linear-gradient(to right, #01010100 0%, #010101ee 10%,
       #010101ee 90%, #01010100 100%);
 }
-/*div#main {
-  background-attachment: fixed;
-  background-image: linear-gradient(to bottom, #00000000 50%,
-      #000000ff 100%);
-}*/
 
 body {
   background-color: #343434;
@@ -16,43 +9,12 @@ body {
   background-image: url("sunrise.jpg");
   background-attachment: fixed;
   background-size: calc(max(25%,320px));
-  /*color: #cccccc;*/
   color: #eeeeee;
 }
 
-/*a.name    {color: #90ee90}*/
 a.name    {color: #f6da6f}
-/*a:link    {color: #00ffff}
-a:active  {color: #90ee90}
-a:visited {color: #009999}*/
 a:link    {color: #afd5e0}
 a:active  {color: #90ee90}
 a:visited {color: #638792}
 
-/*th        {color: #cccccc}*/
-/*td        {color: #cccccc}*/
-/*td.title  {color: #009999}*/
 td.title  {color: #638792}
-/*td.prev {
-  text-align:  left;
-  width:  50%
-}
-td.next {
-  text-align:  right;
-  width:  50%
-}
-
-tr.top {vertical-align:  top;}
-tr.bottom {vertical-align:  bottom;}
-
-h2 {text-align: left}
-h2.title {text-align: center}
-
-h3 {text-align:  left}
-h3.heading {text-align: center}
-
-img {border-width:  0}
-img.cover {border-width:  1px;}
-
-ul#first {list-style-type:  none}
-*/

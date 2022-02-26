@@ -4,46 +4,14 @@ div#main {
 }
 
 body {
-/* background-color: #797f79; */
   background-color: #878787;
   background-image: url("johnny2.jpg");
-/*  color: #000080 */
-/*  color: #6b81a8; */
   color: black;
 }
 
-/* a.name    {color: #ffff7f} */
-/* a.name    {color: #eb8000} */
-/*a.name    {color: #cb6000}*/
-/*a.name    {color: #813d70}*/
 a.name    {color: #603143}
 a:link    {color: #3300cc}
 a:active  {color: #0000ff}
 a:visited {color: #0900a5}
 
-/*th        {color: #000080}
-td        {color: #000080} */
 td.title  {color: #0900a5}
-
-td.prev   {
-    text-align:  left;
-    width: 50%
-}
-td.next {
-    text-align:  right;
-    width: 50%
-}
-
-tr.top {vertical-align: top}
-tr.bottom {vertical-align: bottom}
-
-h2 {text-align:  left}
-h2.title {text-align:  center}
-
-h3 {text-align:  left}
-h3.heading {text-align:  center}
-
-img {border-width:  0}
-img.cover {border-width: 1px}
-
-ul.firsticon {list-style-type:  none}

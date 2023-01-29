@@ -1,15 +1,25 @@
+div#main {
+  background-image: linear-gradient(to right, #1d052600 0%, #1d0526f0 10%,
+      #1d0526f0 90%, #1d052600 100%);
+}
+
 body {
- background: #000055
- url("chaos.jpg");
- color: #ffffff }
+  /*background-color: #000055;*/
+  /*background-color: #23274d;*/
+  background-color: #1d0526;
+  background-image: url("75LZfe.png");
+/*  background-attachment: fixed; */
+  background-size: 100vw;
+  color: white;
+}
 
 a.name    {color: #ffa500}
 a:link    {color: #dddd00}
 a:active  {color: #90ee90}
 a:visited {color: #afaf00}
 
-th        {color: #ffffff}
-td        {color: #ffffff}
+/*th        {color: #ffffff}
+td        {color: #ffffff}*/
 td.title  {color: #afaf00}
 td.prev {
   text-align:  left;

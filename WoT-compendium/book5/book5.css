@@ -1,16 +1,27 @@
-body {
- background: #000000
- url("lightning2.jpg");
- color: #ffffff }
+div#main {
+  background-image: linear-gradient(to right, #00003400 0%, #000034ee 10%,
+      #000034ee 90%, #00003400 100%);
+}
 
-a.name    {color: #ffff00}
+body {
+ background-color: #000034;
+ background-image: url("lightning2.jpg");
+ color: #ffffff
+}
+
+/*a.name    {color: #ffff00}
 a:link    {color: #ffcc00}
 a:active  {color: #ff0000}
-a:visited {color: #dd9900}
+a:visited {color: #dd9900}*/
+a.name    {color: #dd9900}
+a:link    {color: #ffee00}
+a:active  {color: #ff0000}
+a:visited {color: #ffbb00}
 
 th        {color: #ffffff}
 td        {color: #ffffff}
-td.title  {color: #dd9900}
+td.title  {color: #ffbb00}
+/*
 td.prev {
   text-align:  left;
   width:  50%
@@ -33,3 +44,4 @@ img {border-width:  0}
 img.cover {border-width:  1px;}
 
 ul#first {list-style-type:  none}
+*/

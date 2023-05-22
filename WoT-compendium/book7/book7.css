@@ -1,16 +1,21 @@
+div#main {
+  background-image: linear-gradient(to right, #2e0c1300 0%, #2e0c13f0 10%,
+      #2e0c13f0 90%, #2e0c1300 100%);
+}
+
 body {
  background: #2e0c13
  url("crown.gif");
  color: #ffffff }
 
 a.name    {color: yellow}
-a:link    {color: #00ff66}
+a:link    {color: #e8c4a5}
 a:active  {color: #ff00ff}
-a:visited {color: #00aa00}
+a:visited {color: #de8e49}
 
 th        {color: #ffffff}
 td        {color: #ffffff}
-td.title  {color: #00aa00}
+td.title  {color: #de8e49}
 
 td.prev {
   text-align:  left;

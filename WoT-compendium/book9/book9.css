@@ -1,3 +1,8 @@
+div#main {
+  background-image: linear-gradient(to right, #ffffff00 0%, #ffffffe0 10%,
+      #ffffffe0 90%, #ffffff00 100%);
+}
+
 body {
  background: #ffffff
  url("snow.gif");
